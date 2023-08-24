@@ -1,0 +1,11 @@
+<div class="container">
+  <h1> Remote Associates Test
+  </h1>
+  <div class="input-container">
+    <input type="text" [(ngModel)]="inputValues.value1" placeholder="FIrst Word">
+    <input type="text" [(ngModel)]="inputValues.value2" placeholder="Second Word">
+    <input type="text" [(ngModel)]="inputValues.value3" placeholder="Third Word">
+    <button class="calculate-btn" (click)="calculateResult()">Calculate</button>
+    <h2 class="result-text">Result: <span>{{ result }}</span></h2>
+  </div>
+</div>
